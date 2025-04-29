@@ -7,11 +7,13 @@
     box-sizing: border-box;
 }
 
-button{
+.langBtn{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     cursor: pointer;
+    width: 80px;
+    height: 25px;
 }
 
 /* General body styles */
