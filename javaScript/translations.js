@@ -3,19 +3,21 @@ document.addEventListener("DOMContentLoaded", function () {
     // Text definition in diferent languages
     const translations = {
         en: {
+            fp-link: "📘 See my Developer Formation",
             role: "Technician in Administration and Finance & App Developer",
             github: "My GitHub",
             contact: "Contact me:",
             writtenBy: "Written by",
         },
         es: {
+            fp-link: "📘 Ver mi Formacion DAM",
             role: "Técnico en Administración y Finanzas & Desarrollador de Apps",
             github: "Mi GitHub",
             contact: "Contáctame:",
             writtenBy: "Escrito por",
         },
         de: {
-            name: "Ismael Juarez Garcia",
+            fp-link: "📘 See my Developer Formation",
             role: "Fachkraft für Verwaltung und Finanzen & App-Entwickler",
             github: "Mein GitHub",
             contact: "Kontaktiere mich:",
