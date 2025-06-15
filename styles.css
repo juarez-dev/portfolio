@@ -109,3 +109,58 @@ ul li a:hover {
 p{
     padding-left: 50px;
 }
+
+
+/*TARJETAS - REPASAR COMO FUCA ESTO*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1f);
+    gap: 20px
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: none; /* Sin efectos */
+}
+
+/* Título del proyecto dentro de cada tarjeta */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Descripción opcional */
+.card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive para pantallas más pequeñas */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
