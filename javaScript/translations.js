@@ -1,12 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const translations = [
     {
-      key: "name",
-      en: "Ismael Juarez Garcia",
-      es: "Ismael Juarez Garcia",
-      de: "Ismael Juarez Garcia"
-    },
-    {
       key: "role",
       en: "Administrative Assistant & App Developer",
       es: "Asistente Administrativo y Desarrollador de Apps",
