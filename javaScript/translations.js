@@ -29,9 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
       en: "Contact me:",
       es: "Contáctame:",
       de: "Kontaktiere mich:"
-    }
-
-      // Nuevas claves para la página DAM
+    },
+   // Nuevas claves para la página DAM
   {
     key: "title",
     en: "Higher Technician in Multiplatform Application Development (DAM)",
