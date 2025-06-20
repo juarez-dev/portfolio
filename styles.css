@@ -93,9 +93,9 @@ nav a:hover {
    align-items: center; /*centra verticalmente*/
    gap: 20px; /*Espacio entre imagen  z texto*/
 }
-  .foto-perfil img {
+  .profile.img {
      width:25%; /*ocupamos el 25% del contenedor*/
-    object-fit: cover;
+     object-fit: cover;
   }
 .profile-text {
    width: 75%;/*ocupa el restante*/
