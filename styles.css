@@ -89,14 +89,14 @@ nav a:hover {
 ---------------------------------------- */
 .profile {
    display: flex;
-   justify-content: space-between;
+   justify-content: left;
    align-items: left;
-   gap: 20px;
 }
 
 .profile-text {
    flex: 1;
    text-align: right;
+   margin-left: 50px;
 }
   .foto-perfil img {
     object-fit: cover;
