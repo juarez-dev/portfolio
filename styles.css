@@ -95,7 +95,6 @@ nav a:hover {
 }
   .foto-perfil img {
      width:25%; /*ocupamos el 25% del contenedor*/
-     height:auto; /*altura automatica mantiene la proporcion*/
     object-fit: cover;
   }
 .profile-text {
