@@ -93,10 +93,10 @@ nav a:hover {
    align-items: center; /*centra verticalmente*/
    gap: 20px; /*Espacio entre imagen  z texto*/
 }
-  .profile-img img {
+  .profile-img {
      width:25%; /*ocupamos el 25% del contenedor*/
-     object-fit: cover;
   }
+
 .profile-text {
    text-align: left; /*texto alineado a la iyzquierda*/
    margin-left: 0; /*quitamos el margen ya que se usa gap*/
