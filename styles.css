@@ -89,18 +89,21 @@ nav a:hover {
 ---------------------------------------- */
 .profile {
    display: flex;
-   justify-content: left;
-   align-items: left;
-}
-
-.profile-text {
-   flex: 1;
-   text-align: right;
-   margin-left: 50px;
+   justify-content: flex-start; /*alinea al inicio -> izquierda*/
+   align-items: center; /*centra verticalmente*/
+   gap: 20px; /*Espacio entre imagen  z texto*/
 }
   .foto-perfil img {
+     width:25%; /*ocupamos el 25% del contenedor*/
+     height:auto; /*altura automatica mantiene la proporcion*/
     object-fit: cover;
   }
+.profile-text {
+   flex: 1;/*ocupa el espacio restante*/
+   text-align: left; /*texto alineado a la iyzquierda*/
+   margin-left: 0; /*quitamos el margen ya que se usa gap*/
+}
+
 /* ----------------------------------------
    SECTIONS
 ---------------------------------------- */
