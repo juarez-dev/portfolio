@@ -96,7 +96,7 @@ nav a:hover {
 
 .profile-text {
    flex: 1;
-   text-align: left;
+   text-align: right;
 }
   .texto-perfil h1 {
     margin: 0 0 5px 0;
@@ -107,8 +107,7 @@ nav a:hover {
     font-size: 16px;
   }
   .foto-perfil img {
-    width: 150px; /* Ajusta el tamaño que quieras */
-    height: 150px;
+    width: 25%;
     object-fit: cover;
   }
 /* ----------------------------------------
