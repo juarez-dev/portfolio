@@ -98,16 +98,7 @@ nav a:hover {
    flex: 1;
    text-align: right;
 }
-  .texto-perfil h1 {
-    margin: 0 0 5px 0;
-    font-size: 24px;
-  }
-  .texto-perfil p {
-    margin: 5px 0;
-    font-size: 16px;
-  }
   .foto-perfil img {
-    width: 25%;
     object-fit: cover;
   }
 /* ----------------------------------------
