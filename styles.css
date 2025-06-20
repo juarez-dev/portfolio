@@ -85,6 +85,33 @@ nav a:hover {
 }
 
 /* ----------------------------------------
+   PROFILE / PROFILE ELEMENTS
+---------------------------------------- */
+.profile {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+
+.profile-text {
+   flex: 1;
+   text-align: left;
+}
+  .texto-perfil h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+  }
+  .texto-perfil p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .foto-perfil img {
+    width: 150px; /* Ajusta el tamaño que quieras */
+    height: 150px;
+    object-fit: cover;
+  }
+/* ----------------------------------------
    SECTIONS
 ---------------------------------------- */
 section {
