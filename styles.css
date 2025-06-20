@@ -98,7 +98,6 @@ nav a:hover {
      object-fit: cover;
   }
 .profile-text {
-   width: 75%;/*ocupa el restante*/
    text-align: left; /*texto alineado a la iyzquierda*/
    margin-left: 0; /*quitamos el margen ya que se usa gap*/
 }
