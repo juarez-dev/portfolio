@@ -13,6 +13,30 @@ document.addEventListener("DOMContentLoaded", () => {
       de: "Siehe meine Entwickler-Ausbildung"
     },
     {
+      key: "title-javacard",
+      en: "SIMPLE JAVA PROJECTS",
+      es: "PROYECTOS JAVA SIMPLES",
+      de: "EINFACHE JAVA-PROJEKTE"
+    },
+    {
+      key: "title-androidcard",
+      en: "BASIC ANDROID APPS",
+      es: "APPS BASICAS ANDROID",
+      de: "EINFACHE ANDROID-APPS"
+    },
+     {
+      key: "androidcard1",
+      en: "SIMPLE CALCULATOR",
+      es: "CALCULADORA SIMPLE",
+      de: "EINFACHER TASCHENRECHNER"
+    },
+         {
+      key: "androidcard2",
+      en: "STREAM PLATFORMS INFORMATION",
+      es: "INFORMACION PLATAFORMAS DE STREAMING",
+      de: "INFORMATIONEN ZU STREAMPLATTFORMEN"
+    },
+    {
       key: "github",
       en: "My github",
       es: "Mi github",
